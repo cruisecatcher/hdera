@@ -46,7 +46,7 @@ async function SCCreateNonFungibleToken() {
 
 
  // Part 3 - Mint NFT
- metadata = "ipfs://bafyreie3ichmqul4xa7e6xcy34tylbuq2vf3gnjf7c55trg3b6xyjr4bku/metadata.json";
+ metadata = "ipfs://QmVHRwJZAccfJa33d3MMtSxM51u2RLbX3Yp7sDscF122G3/";
   const mintToken = new ContractExecuteTransaction()
    .setContractId(contractId)
    .setGas(1000000)
